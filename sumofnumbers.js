@@ -32,3 +32,8 @@ function sumRecursion(nums){
 
 console.log(sumRecursion(testNums));
 
+function sumUnderscore(nums) {
+  _.reduce(nums, function (memo, num) { return memo + num; }, 0);
+}
+
+console.log(sumUnderscore(testNums));
